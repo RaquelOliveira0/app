@@ -1,0 +1,16 @@
+
+<ion-content class = "bg-image" padding center text-center >
+  <ion-title >99Clean
+  </ion-title>
+<ion-list>
+  <ion-item>
+      <ion-input type="email"  [(ngModel)]="email" placeholder="Email"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input type="password" [(ngModel)]="password" placeholder="Senha"></ion-input>
+  </ion-item>
+</ion-list>
+<button ion-button full  (click)="login()">Entrar</button>
+<button ion-button full color ="secondary" (click)="goToCadastroServicePage()"><ion-icon name="briefcase"> Cadastrar meus serviços</ion-icon></button>
+<button ion-button full color ="danger" (click)="goToContratar()"><ion-icon name="search"> Quero Contratar</ion-icon></button>
+</ion-content>

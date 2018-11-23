@@ -1,0 +1,68 @@
+<!--
+  Generated template for the CadastroserPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Cadastrar Serviço</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+
+  <ion-list>
+      <ion-item>
+          <ion-label color="primary">Nome</ion-label>
+          <ion-input placeholder="Nome"></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label color="primary" >Email</ion-label>
+            <ion-input type="email" placeholder="Email"></ion-input>
+          </ion-item>
+          <ion-item>
+              <ion-label color="primary" >Telefone</ion-label>
+              <ion-input type="tel" placeholder="(DDD)Número"></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label color="primary" >Senha</ion-label>
+                <ion-input type="password" placeholder="Senha"></ion-input>
+              </ion-item>
+              <ion-item>
+                  <ion-label color="primary">CPF</ion-label>
+                  <ion-input type="text" placeholder="CPF"></ion-input>
+                </ion-item>
+                <ion-item>
+                    <ion-label color="primary">Estado</ion-label>
+                    <ion-input type="text" placeholder="Estado"></ion-input>
+                  </ion-item>
+                  <ion-item>
+                      <ion-label color="primary">Cidade</ion-label>
+                      <ion-input type="text" placeholder="Cidade"></ion-input>
+                    </ion-item>
+                        <ion-item>
+                            <ion-label color="primary">Rua</ion-label>
+                            <ion-input type="text" placeholder="Rua"></ion-input>
+                          </ion-item>
+                          <ion-item>
+                              <ion-label color="primary">Número </ion-label>
+                              <ion-input type="number" placeholder="Numero"></ion-input>
+                            </ion-item>
+                            <ion-item>
+                                <ion-label color="primary">Bairro</ion-label>
+                                <ion-input type="text" placeholder="Bairro"></ion-input>
+                              </ion-item>
+                          <ion-item>
+                           <ion-label>Serviço</ion-label>
+                            <ion-select [(ngModel)]="gender">
+                            <ion-option value="d">Diarista</ion-option>
+                           <ion-option value="f">Faxineira</ion-option>
+                        </ion-select>
+                        </ion-item>                                          
+  </ion-list>
+  <button ion-button full >Cadastrar</button>
+
+</ion-content>
