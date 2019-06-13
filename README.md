@@ -14,7 +14,7 @@ O aplicativo conta com as seguintes telas:
 
 -Perfil:exibe o perfil do usuário.
 
--Configurações:exibe as configurções do aplicativo.
+-Configurações:exibe as configurações do aplicativo.
 
 As demais funcionalidades no caso as do cliente não foram implematadas.
 
