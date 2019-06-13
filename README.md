@@ -3,6 +3,7 @@ Aplicativo desenvolvido na disciplina de e-business usando Ionic e Firebase.
 O aplicativo se chama 99Clean trata-se de um aplicativo de cadastro de diaristas e faxineiras. 
 O objetivo do aplicativo é conectar quem necessita do serviço de limpeza(cliente)e prestadores de serviços(diaristas e faxineiras).
 O aplicativo conta com as seguintes telas:
+
 -Tela de Login:permite ao usuário se autenticar no sistema.
 
 -Tela de cadastro: permite ao usuário se cadastrar no aplicativo.
